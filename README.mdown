@@ -1,5 +1,10 @@
 Kotwig
 ======
+
+Note: this README file was written by [Burgestrand](https://github.com/Burgestrand)
+
+**This fork is compatible with Kohana v3.2 and upper.**
+
 Kotwig is a very simple Kohana v3 module for the template system named [Twig][]. It is built as an extension to the Kohana View, and thus share its’ API.
 
 For twig documentation, language syntax and whatnot, please see the official [twig documentation][docs] at its’ official website.

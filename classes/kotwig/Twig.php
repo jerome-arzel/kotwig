@@ -17,7 +17,7 @@
         public function __construct($file = NULL, array $data = NULL)
         {
             parent::__construct($file, $data);
-            $this->_twig = new Twig_Environment(new Kotwig_Loader_View, Kohana::config('twig')->as_array());
+            $this->_twig = new Twig_Environment(new Kotwig_Loader_View, Kohana::$config->load('twig')->as_array());
         }
         
         /**
